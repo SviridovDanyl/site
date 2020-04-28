@@ -1,0 +1,345 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	display: flex;
+}
+
+.bg img{
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+}
+
+.logo__name{
+	margin: 2.7% 0 0 8%;
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;
+}
+
+.topnav{
+	margin: 4%;
+	position: absolute;
+	right: 2%;
+}
+
+.topnav a{
+	text-decoration: none;
+	font-family: arial;
+	font-size: 15px;
+	color: black;
+	margin: 0 20px 0 0;
+	font-weight: 600;
+}
+
+.topnav a:hover{
+	padding: 7px 0 0 0;
+	border-top: 3px solid orange;
+}
+
+.fresh{
+	width: 370px;
+	margin: 20% 0 0 8%;
+}
+
+.fresh .name{
+	font-size: 50px;
+	font-weight: 900;
+	font-family: arial;
+	padding: 0 0 20px 0;
+}
+
+.fresh .text{
+	font-size: 15px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+	color: grey;
+	padding: 0 0 20px 0;
+}
+
+.fresh button{
+	width: 190px;
+	height: 45px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	background-color: #ff6033;
+	border: none;
+	box-shadow: 0 0 5px black;
+}
+
+.scroll{
+	padding: 0 0 40px 0;
+	width: 20px;
+	margin: 15% 50% 0 50%;
+}
+
+.about{
+	width: 100%;
+	height: 100vh;
+	background-color: #00bdbd;
+	display: flex;
+}
+
+.about img{
+	margin: 7% 0 7% 8%;
+	width: 500px;
+	height: 500px;
+}
+
+.inf{
+	margin: 10% 0 0 5%;
+	width: 520px;
+	flex-direction: column;
+}
+
+.about .name{
+	text-align: center;
+	font-weight:700;
+	font-size: 85px;
+	font-family: arial;
+	color: white;
+}
+
+.about .text1, .text2{
+	color: white;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+}
+
+.services{
+	background-color: #70bfff;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+
+.services img{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	right: 15%;	
+	margin: 10% 0 10% 0;
+}
+
+.services .name{
+	right: 15%;	
+	margin: 22% 0 0 0;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-family: arial;
+	font-size: 70px;
+	font-weight: 600;
+}
+
+.services .buts button{
+	display: flex;
+	width: 300px;
+	height: 60px;
+	margin: 0 0 10px 0;
+	box-shadow: 0 0 5px black;
+	background-color: white;
+	border: none;
+}
+
+.buts button p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	color: #262626;
+}
+
+.buts{
+	margin: 13% 0 15% 15%;
+}
+
+.gallery{
+	width: 100%;
+	text-align: center;
+	background-color: #ffe92f;
+}
+
+.gallery .name{
+	padding: 50px 0 20px 0;
+	font-family: arial;
+	font-size: 70px;
+	color: black;
+	font-weight: 600;
+}
+
+.gallery .text{
+	font-weight: 600;
+	font-size: 15px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+}
+
+.gallery button{
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.gal1{
+	margin: 0 0 0 18%;
+	width: 500px;
+	height: 350px;
+}
+
+.gal2{
+	width: 300px;
+	height: 165px;
+	padding: 0 0 20px 0;
+}
+
+.gal3{
+	width: 300px;
+	height: 165px;
+}
+
+.qw{
+	display: flex;
+	float: right;
+	margin: 0 20% 0 0;
+	flex-direction: column;
+}
+
+.gal4{
+	width: 400px;
+	height: 250px;
+	margin: 0 15px 0 0;
+}
+
+.gal5{
+	width: 400px;
+	height: 250px;
+	margin: 0 10px 0 0;
+}
+
+.content{
+	padding: 4% 0 0 0;
+}
+
+.subscribe{
+	width: 470px;
+	margin: 20% 0 0 8%;
+}
+
+.subscribe .name{
+	font-size: 50px;
+	font-weight: 900;
+	font-family: arial;
+	padding: 0 0 20px 0;
+}
+
+.subscribe .text{
+	font-size: 15px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+	color: grey;
+	padding: 0 0 20px 0;
+}
+
+.subscribe input .email{
+	width: 300px;
+	height: 45px;
+	color: white;
+	border: 5px;
+
+} 
+
+.subscribe input .submit{
+	width: 190px;
+	height: 45px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	background-color:#7aeb34;
+	border: none;
+	box-shadow: 0 0 5px black;
+	margin-left: 450px;
+	margin-bottom: 200px;
+}
+
+.blog{
+	width: 100%;
+	text-align: center;
+	background-color: #b407e9;
+}
+
+.blog .name{
+	padding: 50px 0 20px 0;
+	font-family: arial;
+	font-size: 70px;
+	color: white;
+	font-weight: 600;
+}
+
+.blog .text{
+	font-weight: 600;
+	font-size: 15px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.card{
+	margin-left: 10px;
+}
+
+.card img{
+	width: 300px;
+	height: 250px;
+}
+
+
+.contact{
+	width: 470px;
+	margin: 20% 0 0 8%;
+}
+
+.contact .name{
+	font-size: 50px;
+	font-weight: 900;
+	font-family: arial;
+	padding: 0 0 20px 0;
+}
+
+.contact .text{
+	font-size: 15px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+	color: black;
+	padding: 0 0 20px 0;
+}
+
+.blog{
+	width: 100%;
+	text-align: center;
+}
+
+.blog .name{
+	padding: 50px 0 20px 0;
+	font-family: arial;
+	font-size: 70px;
+	color: white;
+	font-weight: 600;
+}
+
+.blog .text{
+	font-weight: 600;
+	font-size: 15px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+}
+footer{
+	background-color: black;
+}
+
+.footer ul li{
+	justify-content: space-between;
+	display: inline;
+}
